@@ -1,0 +1,7 @@
+@id,rdf:type,skos:prefLabel,skos:altLabel,skos:definition,skos:note,skos:inScheme,skos:broader,skos:topConceptOf,pav:version,dcterms:source
+policy:scheme,skos:ConceptScheme,Taxonomy for Policy,,,This taxonomy is derived from the Figure 2-5 in Chapter 2 Definitions and Concepts of the Data Governance book by John Ladley.,,,,0.0.1,https://learning.oreilly.com/library/view/data-governance/9780124158290/xhtml/CHP002.html#F0030
+policy:0001,skos:Concept,Principle,,,,policy:scheme,,policy:scheme,,
+policy:0002,skos:Concept,Policy,,A statement of a selected course of action and high-level description of desired behavior to achieve a set of goals.,,policy:scheme,,policy:scheme,,https://technicspub.com/sample-page/dmbok/dama-dictionary-pdf/
+policy:0003,skos:Concept,Standard,,,,policy:scheme,policy:0002,,,
+policy:0004,skos:Concept,Control,,,,policy:scheme,policy:0002,,,
+policy:0005,skos:Concept,Process,,,,policy:scheme,policy:0002,,,
